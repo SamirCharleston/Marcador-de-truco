@@ -45,6 +45,8 @@ body.style.display = "flex";
 body.style.justifyContent = "center";
 body.style.alignItems = "center";
 body.style.flexDirection = "column";
+body.style.columnGap = "20px"
+body.style.gap = "20px";
 
 vencedor.style.color = "white";
 vencedor.style.fontFamily = "Arial"
@@ -55,6 +57,7 @@ vencedor.style.display = "none";
 quadro.style.display = "flex";
 quadro.style.width = "50vw";
 quadro.style.height = "25vw";
+quadro.style.gap = "20px";
 
 placarGeral.style.width = "50%";
 placarGeral.style.display = "flex";
